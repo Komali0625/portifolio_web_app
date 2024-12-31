@@ -80,18 +80,19 @@ This Personal Portfolio Website is a dynamic and responsive platform designed to
    ```bash
    cd your-repo-name
    ```
-
-
-
-3. run commands to install Material-UI:
+3. Install Dependencies (Including Material-UI): This step will automatically create the node_modules folder:
    ```bash
    npm install @mui/material @emotion/react @emotion/styled
    ```
-4. Start the development server:
+4. Ensure node_modules Folder Exists: If you're starting fresh, running npm install without any additional arguments will restore all dependencies listed in package.json:
+   ```bash
+   npm install
+   ```
+5. Start the development server:
    ```bash
    npm start
    
-5. Open the project in your browser at:
+6. Open the project in your browser at:
    ```
    http://localhost:3000
    ```
